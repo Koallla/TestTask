@@ -26,7 +26,7 @@
   },
   "rules": {
     "no-console": 1,
-    "no-param-reassign": [2, { "props": false }],
+    "no-param-reassign": [2, { "props": false }], //не пропускал reduce
     "linebreak-style": ["error", "unix"],
     "jsx-a11y/no-onchange": 0,
     "jsx-a11y/label-has-associated-control": 0,
