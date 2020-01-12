@@ -1,0 +1,43 @@
+.task {
+  box-shadow: 4px 4px 3px 1px rgba(0, 0, 0, 0.2),
+    0px 1px 1px 0px rgba(0, 0, 0, 0.14), 0px 2px 1px -1px rgba(0, 0, 0, 0.12);
+  border-radius: 2px;
+  background-color: #fff;
+  overflow: hidden;
+  padding: 8px;
+  border-top: 3px solid transparent;
+}
+
+.actions {
+  display: flex;
+  justify-content: flex-end;
+  flex-shrink: 0;
+  margin-left: 8px;
+  align-items: center;
+}
+
+.btn {
+  transition: background-color 300ms;
+}
+
+.task:hover {
+  background-color: rgb(211, 211, 211);
+}
+
+.btn:hover {
+  background-color: rgb(136, 136, 136);
+}
+
+.close,
+.open {
+  height: 10px;
+  margin-top: 6px;
+}
+
+.close {
+  background-color: rgb(69, 255, 62);
+}
+
+.open {
+  background-color: rgb(255, 71, 71);
+}

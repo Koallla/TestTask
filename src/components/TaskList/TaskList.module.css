@@ -1,0 +1,44 @@
+.wrapper {
+  position: relative;
+  max-width: 30%;
+  max-height: 80vh;
+  overflow: scroll;
+  border: 1px solid rgb(151, 151, 151);
+}
+
+.myTasks {
+  background-color: rgb(146, 145, 145);
+  color: #fff;
+  border-top: 1px solid rgb(78, 78, 78);
+  border-bottom: 1px solid rgb(78, 78, 78);
+  padding: 10px;
+  text-align: center;
+  font-size: 20px;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  margin-left: 3px;
+  margin-right: 3px;
+  margin-top: 0;
+  margin-bottom: 0;
+  padding: 0;
+  list-style: none;
+  border: 1px solid rgb(209, 209, 209);
+}
+
+.list li {
+  margin-top: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.list li:hover {
+  transform: scale(1.04);
+  cursor: pointer;
+}
